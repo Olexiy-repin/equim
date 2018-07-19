@@ -1,0 +1,128 @@
+.sec-04 {
+  padding-top: 3.2rem; 
+  position: relative;
+}
+
+.sec-04__top-content {
+  padding-top: 2rem;
+  padding-left: 3.3rem;
+  padding-bottom: 1.7rem;
+  width: 94%;
+  margin-left: auto;
+  background-color: #fc864d;
+  margin-bottom: 4.7rem;
+}
+
+.sec-04__top-title {
+  font-family: FuturaCB;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  position: relative;
+  line-height: 1;
+  &::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0.7rem;
+    left: -3.3rem;
+    width: 2.2rem;
+    height: 2px;
+    background-color: #fff;
+  }
+}
+
+.sec-04__top-subtitle {
+  font-family: FuturaL;
+  font-size: pxToRem(16px);
+  color: #fff;
+  line-height: 1.5;
+  padding-left: 1.1rem;
+}
+
+.sec-04__bottom-title {
+  font-family: FuturaC;
+  font-size: 1.6rem;
+  color: #000;
+  margin-bottom: 6.7rem;
+  position: relative;
+  line-height: 1.3;
+  padding-left: 4.4rem;
+  letter-spacing: 0.5px;
+  &::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0.9rem;
+    left: 0.8rem;
+    width: 2.5rem;
+    height: 2px;
+    background-color: #000;
+  }
+}
+
+.sec-04__top-list-row {
+  .sec-04__list-count {
+    color: #fedac9;
+  }
+
+  .sec-04__top-list-item {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      bottom: -.9rem;
+      left: 0;
+      width: 12.2rem;
+      height: 6px;
+      background-color: #f47a44;
+    }
+  }
+}
+
+.sec-04__top-list-item,
+.sec-04__-list-item {
+  font-family: FuturaL;
+  font-size: pxToRem(17px);
+  position: relative;
+  line-height: 1.2;
+  margin-bottom: 8rem;
+  padding-right: 1.8rem;
+}
+
+.sec-04__list-count {
+  position: absolute;
+  top: -4.3rem;
+  left: 0;
+  font-family: FuturaCB;
+  font-size: 2.4rem;
+  transform: rotate(-90deg);
+}
+
+.sec-04__top-list-row {
+  margin: auto;
+  width: 15.7rem;
+  padding-right: 3.4rem;
+}
+
+.sec-04__list-row {
+  margin: auto;
+  width: 15.7rem;
+  .sec-04__list-count {
+    color: #bebebe;
+  }
+  .sec-04__-list-item {
+    padding-right: .2rem;
+    margin-bottom: 6.9rem;
+    &:last-of-type {
+      padding-right: 8rem;
+    }
+  }
+}
+
+.sec-04__picture {
+  display: block;
+  position: absolute;
+  bottom: -6.2rem;
+}

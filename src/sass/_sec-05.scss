@@ -1,0 +1,53 @@
+.sec-05 {
+  padding-top: 1.9rem;
+  padding-bottom: 2rem;
+}
+
+.sec-05__title {
+  font-family: FuturaCB;
+  font-size: 2.1rem;
+  line-height: 1.3;
+  padding-left: 3.3rem;
+  padding-right: 3rem;
+  margin-bottom: 1.9rem;
+}
+
+.sec-05__list {
+  padding-left: 2.9rem;
+}
+
+.sec-05__list-item {
+  display: flex;
+  font-family: FuturaC;
+  font-size: pxToRem(17px);
+  margin-bottom: 1.5rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  span {
+    padding-top: .4rem;
+    padding-right: 3rem;
+    letter-spacing: -.5px;
+  }
+  img {
+    display: block;
+    margin-right: 2.1rem;
+    width: 46px;
+    height: 46px;
+  }
+}
+
+.sec-05__btn {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f47a44;
+  padding: .8rem 0;
+  margin: auto;
+  width: 11rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: FuturaC;
+  font-size: pxToRem(12px);
+  margin-top: .7rem;
+}

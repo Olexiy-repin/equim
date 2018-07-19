@@ -1,0 +1,78 @@
+.sec-03 {
+  padding-top: 2.4rem;
+  .sec-02__bottom-title {
+    margin-bottom: 1.5rem;
+  }
+  .sec-02__bottom-text {
+    margin-bottom: 1.9rem;
+  }
+  .sec-02__bottom-text {
+    span {
+      color: #fc8e59;
+    }
+  }
+}
+
+.sec-03__picture {
+  display: block;
+  margin-bottom: 1.3rem;
+  position: relative;
+  text-align: center;
+  &::before {
+    display: block;
+    content: "Игорь Рыбаков ";
+    font-family: FuturaL;
+    font-size: pxToRem(14px);
+    position: absolute;
+    bottom: -1rem;
+    right: 1.4rem;
+    letter-spacing: -1px;
+    color: #646464;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+    &::before {
+      content: "Оскар Хартманн";
+      bottom: -.3rem;
+    }
+  }
+}
+
+.sec-03__bottom-content {
+  margin-top: 4.7rem;
+}
+
+.sec-03__bottom-content-text {
+  padding-left: 4.3rem;
+  margin-bottom: 2.5rem;
+}
+
+.sec-03__bottom-title {
+  font-family: FuturaCB;
+  font-size: 2.1rem;
+  letter-spacing: -1px;
+  margin-bottom: 1.6rem;
+  position: relative;
+  padding-right: 4rem;
+  &::before {
+    display: block;
+    content: url("img/sec-03/quote.png");
+    position: absolute;
+    left: -3.6rem;
+    top: -1.1rem;
+  }
+}
+
+.sec-03__bottom-picture {
+  display: block;
+  text-align: center;
+}
+
+.sec-03__bottom-subtitle {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  color: #4a4a4a;
+  padding-left: 1.2rem;
+  letter-spacing: -1px;
+  padding-right: 4rem;
+}
