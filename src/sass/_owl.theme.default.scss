@@ -9,20 +9,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: .9rem;
+  margin-top: 2.3rem;
 }
 
 .owl-dot {
-  width: 1rem;
-  height: 1rem;
+  width: .5rem;
+  height: .5rem;
   border-radius: 50%;
-  background-color: #6e6f72;
-  margin-right: 1.5rem;
+  background-color: #e5e5e5;
+  margin-right: .8rem;
   &:last-child {
     margin-right: 0;
   }
 }
 
 .owl-dot.active {
-  background-color: #26c6da;
+  background-color: #000;
 }

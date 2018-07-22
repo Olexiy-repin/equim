@@ -1,0 +1,61 @@
+.sec-09 {
+  padding-top: 1.2rem;
+}
+
+.sec-09__title {
+  font-family: FuturaCB;
+  font-size: 2.1rem;
+  color: #282828;
+  text-align: center;
+  position: relative;
+  margin-bottom: 1.9rem;
+  &::before {
+    display: block;
+    content: "";
+    width: 2.5rem;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    top: 0.9rem;
+    left: 1.4rem;
+  }
+}
+
+.sec-09__mentors-container {
+  position: relative;
+  padding-bottom: 1rem;
+  &::after {
+    display: block;
+    content: "";
+    width: 287px;
+    height: 1px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.sec-09__mentor-card {
+  margin-bottom: 1.5rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.sec-09__mentor-picture {
+  display: block;
+  margin-bottom: .5rem;
+  img {
+    display: block;
+    width: 196px;
+    margin: auto;
+  }
+}
+
+.sec-09__mentor-description {
+  font-family: FuturaL;
+  font-size: 1rem;
+  text-align: center;
+}
