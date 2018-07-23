@@ -4,6 +4,11 @@
        url('fonts/GothaProBol.woff2') format("woff2");
 }
 
+.owl-carousel {
+  display: flex!important;
+  align-items: flex-end!important;
+}
+
 // OWL DOTS
 .owl-dots {
   display: flex;
@@ -25,4 +30,37 @@
 
 .owl-dot.active {
   background-color: #000;
+}
+
+.sec-01 {
+  .owl-dot {
+    display: none;
+  }
+}
+
+.sec-12 {
+  .owl-dots {
+    display: none;
+  }
+  .owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 4rem;
+    height: 1.7rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    .owl-prev {
+      margin-right: 1rem;
+    }
+    div {
+      svg {
+        fill: #000;
+        width: .7rem;
+        height: .7rem;
+      }
+    }
+  }
 }

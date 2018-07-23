@@ -1,5 +1,5 @@
 .sec-04 {
-  padding-top: 3.2rem; 
+  padding-top: 3.2rem;
   position: relative;
 }
 
@@ -124,5 +124,14 @@
 .sec-04__picture {
   display: block;
   position: absolute;
-  bottom: -6.2rem;
+  bottom: -.3rem;
+  right: 0;
+}
+
+.sec-04__bottom-plashka {
+  background-color: #393939;
+  position: absolute;
+  bottom: -5.7rem;
+  width: 100%;
+  height: 5.8rem;
 }
