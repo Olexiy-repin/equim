@@ -264,6 +264,23 @@ margin-bottom: 1.8rem;
     display: none;
   }
 
+  .sec-01__desctop-content .container--width {
+    display: flex;
+  }
+
+  .sec-01__slide-picture {
+    display: block;
+    position: relative;
+    &::before {
+      display: block;
+      content: url("img/sec-01/circle.png");
+      position: absolute;
+      right: 1rem;
+      top: 3rem;
+      z-index: -1;
+    }
+  }
+
   .sec-01__header {
     justify-content: flex-end;
   }
@@ -330,13 +347,6 @@ margin-bottom: 1.8rem;
     width: 50%;
     background-color: #ececec;
     position: relative;
-    &::before {
-      display: block;
-      content: url("img/sec-01/circle.png");
-      position: absolute;
-      right: 2rem;
-      top: 4rem;
-    }
   }
 
   .sec-01__slider-container {
@@ -361,5 +371,144 @@ margin-bottom: 1.8rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sec-01 {
+    position: relative;
+  }
+
+  .sec-01__header-menu {
+    width: 64%;
+    padding: 1.2rem 2.5rem;
+  }
+
+  .sec-01__logo-container {
+    width: auto;
+    margin-right: 3.1rem;
+  }
+
+  .sec-01__header-menu-link {
+    letter-spacing: 1px;
+    margin-right: 1.2rem;
+  }
+
+  .sec-01__header-menu-contact-container {
+    margin-left: 6.8rem;
+    text-align: center;
+  }
+
+  .sec-01__header-menu-btn {
+    letter-spacing: 0;
+  }
+
+  .sec-01__under-title {
+    font-size: pxToRem(24px);
+  }
+
+  .sec-01__title {
+    font-size: pxToRem(48px);
+  }
+
+  .sec-01__header {
+    margin-bottom: 14.5rem;
+  }
+
+  .sec-01__left-side {
+    width: 60%;
+    padding-left: 0;
+  }
+
+  .sec-01__desctop-text-container {
+    padding-left: 10.2rem;
+    margin-bottom: 3.4rem;
+  }
+
+  .sec-01__under-title {
+    margin-bottom: .8rem;
+  }
+
+  .sec-01__title {
+    margin-bottom: 2.6rem;
+    &::before {
+      left: -4rem;
+      top: 1.3rem;
+      width: 2.8rem;
+    }
+  }
+  .sec-01__subtitle {
+    padding-left: 5.1rem;
+    padding-right: 3.6rem;
+    line-height: 1.5;
+  }
+
+  .sec-01 .form-container {
+    padding: 0 0 0 5.2rem;
+    width: 22.7rem;
+  }
+
+  .sec-01 .sec-01__form-title {
+    margin-bottom: 3.6rem;
+  }
+
+  .sec-01 .field {
+    margin-bottom: 1.7rem;
+  }
+
+  .sec-01 .sec-01__form-btn {
+    margin-top: 2.5rem;
+    width: 13.1rem;
+    padding: 1.1rem 0 .7rem;
+    letter-spacing: 0;
+  }
+
+    .sec-01__right-side {
+      position: absolute;
+      top: 84px;
+      right: 0;
+      z-index: -1;
+      &::before {
+        right: 30.7rem;
+        top: 12.5rem;
+      }
+
+      &::after {
+        display: block;
+        position: absolute;
+        content: "эквиум";
+        text-transform: uppercase;
+        top: 10.2rem;
+        left: -30.4rem;
+        font-family: FuturaCB;
+        font-size: 200px;
+        color: #f8f8f8;
+      }
+    }
+
+  .sec-01__slider-container {
+    height: 876px;
+  }
+
+  .owl-carousel .owl-stage {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .sec-01__slider-container {
+    padding-left: 4.8rem;
+  }
+
+  .sec-01__slide-picture {
+    position: relative;
+    width: 425px;
+    &::before {
+      display: block;
+      content: url("img/sec-01/circle.png");
+      position: absolute;
+      right: 0rem;
+      top: 6rem;
+      z-index: -1;
+    }
   }
 }

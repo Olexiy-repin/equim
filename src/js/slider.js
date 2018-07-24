@@ -6,7 +6,7 @@
    loop: true,
    nav: false,
    // autoplay: true,
-   // autoplayTimeout: 5000,
+   // autoplayTimeout: 1000,
    animateOut: "fadeOut",
    animateIn: "fadeIn",
    mouseDrag: false,
