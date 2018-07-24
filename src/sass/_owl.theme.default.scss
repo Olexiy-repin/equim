@@ -38,6 +38,23 @@
   }
 }
 
+.sec-06 {
+  .owl-dots {
+    position: absolute;
+    bottom: -1rem;
+    // right: 0;
+  }
+}
+
+.sec-10 {
+  .owl-dots {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 .sec-12 {
   .owl-dots {
     display: none;
@@ -61,6 +78,15 @@
         width: .7rem;
         height: .7rem;
       }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .sec-12 {
+    .owl-nav {
+      width: 6rem;
+      height: 2.1rem;
     }
   }
 }

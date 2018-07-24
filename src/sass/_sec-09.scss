@@ -59,3 +59,36 @@
   font-size: 1rem;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .sec-09 {
+    padding-top: 3rem;
+  }
+  
+  .sec-09__title {
+    text-align: right;
+    padding-right: 1rem;
+    &::before {
+      left: 23.4rem;
+    }
+    br {
+      content: "";
+      &::after {
+        content: "\00a0"
+      }
+    }
+  }
+
+  .sec-09__mentors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    &::after {
+      width: 100%;
+    }
+  }
+
+  .sec-09__mentor-card {
+    width: 33%;
+  }
+}

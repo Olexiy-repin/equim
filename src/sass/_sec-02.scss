@@ -1,6 +1,7 @@
 .sec-02 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: relative;
 }
 
 .sec-02__title {
@@ -60,6 +61,7 @@
   letter-spacing: .6px;
   position: relative;
   margin-bottom: 1.2rem;
+  color: #282828;
   &::before {
     display: block;
     content: "";
@@ -79,4 +81,49 @@
   padding-left: 5.5rem;
   padding-right: 1rem;
   margin-bottom: 2.2rem;
+  color: #282828;
+}
+
+@media (min-width: 768px) {
+  .sec-02 {
+    padding-top: 3rem;
+  }
+
+  .sec-02__list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+  }
+
+  .sec-02__list-item {
+    margin-bottom: 0;
+    padding-right: 1.5rem;
+  }
+
+  .sec-02__title {
+    font-size: pxToRem(36px);
+  }
+
+  .sec-02__bottom-title {
+    padding-left: 24rem;
+    &::before {
+      left: 21rem;
+    }
+  }
+
+  .sec-02__bottom-text {
+    padding-left: 24rem;
+  }
+
+  .sec-02__picture {
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    z-index: -1;
+  }
+
+  .sec-02__list-container {
+    margin-bottom: 5.4rem;
+  }
 }

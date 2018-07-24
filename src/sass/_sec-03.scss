@@ -1,5 +1,6 @@
 .sec-03 {
   padding-top: 2.4rem;
+  position: relative;
   .sec-02__bottom-title {
     margin-bottom: 1.5rem;
   }
@@ -48,6 +49,7 @@
 }
 
 .sec-03__bottom-title {
+    color: #282828;
   font-family: FuturaCB;
   font-size: 2.1rem;
   letter-spacing: -1px;
@@ -75,4 +77,66 @@
   padding-left: 1.2rem;
   letter-spacing: -1px;
   padding-right: 4rem;
+}
+
+@media (min-width: 768px) {
+  .sec-03 {
+    .sec-02__bottom-title {
+      padding-left: 4rem;
+      padding-right: 40%;
+      &::before {
+        left: 1rem;
+        top: 1rem;
+      }
+    }
+
+    .sec-02__bottom-text {
+      padding-left: 1rem;
+      padding-right: 27rem;
+    }
+  }
+
+  .sec-03__picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    &:first-of-type {
+      right: 3rem;
+      top: 1.7rem;
+      margin-bottom: 0;
+    }
+    &:last-of-type {
+      top: 11rem;
+      right: 12.7rem;
+    }
+  }
+
+  .sec-03__bottom-content {
+    margin-top: 11.7rem;
+  }
+
+  .sec-03__bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .sec-03__bottom-content-text {
+    order: 2;
+    margin-bottom: 0;
+  }
+
+  .sec-03__bottom-title {
+    font-size: pxToRem(30px);
+    margin-bottom: 1rem;
+    &::before {
+      left: -4rem;
+    }
+  }
+
+  .sec-03__bottom-subtitle {
+    padding-left: 0;
+  }
 }

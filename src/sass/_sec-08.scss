@@ -93,3 +93,38 @@
   display: block;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .sec-08 {
+    padding-top: 3.3rem;
+  }
+
+  .sec-08__title {
+    text-align: left;
+    padding-left: 4.5rem;
+  }
+
+  .sec-08__subtitle {
+    width: 32rem;
+  }
+
+  .sec-08__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sec-08__list-item {
+    width: 42%;
+  }
+
+  .sec-08__picture-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec-08__picture-container:after,
+  .sec-08__picture-container:before {
+    width: 100%;
+  }
+}

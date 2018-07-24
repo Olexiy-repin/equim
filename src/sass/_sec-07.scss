@@ -1,5 +1,6 @@
 .sec-07 {
   padding-top: 1.9rem;
+  position: relative;
 }
 
 .sec-07__title {
@@ -150,4 +151,57 @@
 .sec-07__form-picture {
   display: block;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .sec-07__title {
+    font-size: 2.1rem;
+    &::before {
+      top: .8rem;
+    }
+  }
+
+  .sec-07__subtitle {
+    padding-right: 22.3rem;
+  }
+
+  .sec-07__list-title {
+    padding-left: 1rem;
+  }
+
+  .sec-07__list {
+    padding-left: 4rem;
+  }
+
+  .sec-07__list-item {
+    padding-right: 20rem;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .sec-07__picture {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+  }
+
+  .sec-07__second-col {
+    margin-bottom: 4rem;
+  }
+
+  .sec-07__form-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .sec-07__header-form {
+    width: 50%;
+  }
+
+  .sec-07__form-picture {
+    width: 50%;
+  }
 }

@@ -124,3 +124,32 @@
     transform: rotate(90deg);
   }
 }
+
+@media (min-width: 768px) {
+  .sec-11__top-content {
+    display: flex;
+  }
+
+  .sec-11__top-text-container {
+    width: 70%;
+    padding-right: 1rem;
+  }
+
+  .sec-11__top-picture-container {
+    width: 30%;
+  }
+
+  .sec-11__statistics-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4.3rem;
+  }
+
+  .sec-11__bottom-content::before {
+    transform: rotate(0);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10.8125rem;
+  }
+}

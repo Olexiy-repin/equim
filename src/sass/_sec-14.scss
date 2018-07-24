@@ -50,3 +50,32 @@
     margin-right: 0;
   }
 }
+
+@media (min-width: 768px) {
+  .footer {
+    padding-bottom: 2.4rem; 
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.9rem 0 2.9rem;
+  }
+
+  .footer__block {
+    margin-bottom: 0;
+    &:first-of-type {
+      width: 17%;
+    }
+    &:nth-of-type(2) {
+      width: 50%;
+    }
+    &:last-of-type {
+      width: 23%;
+    }
+  }
+
+  .footer__block {
+    margin-bottom: 0;
+  }
+}

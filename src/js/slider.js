@@ -44,7 +44,26 @@
 
     autoHeight : false,
 
-    margin : 5
+    margin : 5,
+    responsiveClass: true,
+    responsive: {
+        0: {
+          nav: false,
+          dot: true,
+          items: 1
+        },
+        768: {
+          nav: false,
+          dots: true,
+          items: 3,
+          margin: 5
+        },
+        1200: {
+          nav: false,
+          dot: true,
+          items: 4
+        }
+    }
   });
 })();
 

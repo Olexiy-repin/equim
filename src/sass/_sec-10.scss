@@ -123,3 +123,44 @@
   display: block;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .sec-10 {
+    padding-top: 3rem;
+  }
+
+  .sec-10__title {
+    margin-left: auto;
+    width: 19.5rem;
+    margin-right: 1rem;
+
+    &::before {
+      left: -3.6rem;
+    }
+    br:first-of-type {
+      content: "";
+      &::after {
+        content: "\00a0"
+      }
+    }
+  }
+
+  .sec-10__slider-container {
+    margin-bottom: 5.8rem;
+  }
+
+  .sec-10__title {
+    margin-bottom: 2.4rem;
+  }
+
+  .sec-10__form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sec-10__header-form {
+    margin-bottom: 0;
+    width: 70%;
+  }
+}

@@ -83,3 +83,48 @@ ul {
   transform: translateY(-50%);
   right: 0;
 }
+
+@media (min-width: 768px) {
+  .sec-06 {
+    .owl-carousel .owl-item {
+      img {
+        width: 400px!important;
+        height: 267px!important;
+      }
+    }
+
+    .owl-item.active {
+      width: 400px!important;
+      height: 267px!important;
+    }
+  }
+  
+  .sec-06__title {
+    padding-right: 31%;
+  }
+
+  .sec-06__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sec-06__list-item {
+    width: 49%;
+  }
+
+  .sec-06__list__text {
+    padding-right: 7rem;
+  }
+
+  .sec-06__plaska {
+    height: 18rem;
+    width: 57%;
+  }
+
+  .sec-06__slider {
+    width: 400px;
+    height: 267px;
+    margin-right: 5rem;
+  }
+}
