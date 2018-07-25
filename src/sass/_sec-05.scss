@@ -1,5 +1,5 @@
 .sec-05 {
-  padding-top: 1.9rem;
+  padding-top: 3.9rem;
   padding-bottom: 2rem;
 }
 
@@ -50,12 +50,17 @@
   text-align: center;
   font-family: FuturaC;
   font-size: pxToRem(12px);
-  margin-top: .7rem;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  &:hover {
+    transition: all .5s linear;
+    background-color: #393939;
+  }
 }
 
 @media (min-width: 768px) {
   .sec-05 {
-    padding-top: 8.9rem;
+    padding-top: 12.9rem;
   }
 
   .sec-05__list {

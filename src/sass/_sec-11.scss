@@ -26,7 +26,7 @@
 }
 
 .sec-11__top-paragraph {
-  font-family: FuturaCB;
+  font-family: FuturaL;
   font-size: pxToRem(16px);
   color: #fff;
   padding-left: 5.6rem;
@@ -35,7 +35,7 @@
   span {
     color: #fc864d;
   }
-  &:nth-of-type(n+2) {
+  &:nth-of-type(n+1) {
     line-height: 1.5;
   }
   &:last-of-type {
@@ -151,5 +151,67 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 10.8125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sec-11 {
+    padding-top: 6.9rem;
+  }
+
+  .sec-11__title {
+    font-size: pxToRem(46px);
+    padding-left: 10.4rem;
+    margin-bottom: 2.8rem;
+    &::before {
+      width: 2.9rem;
+      top: 1.3rem;
+      left: 6.1rem;
+    }
+  }
+
+  .sec-11__top-paragraph {
+    font-size: pxToRem(18px);
+    padding-left: 15.3rem;
+    line-height: 1.2;
+  }
+
+  .sec-11__desctop-paragraph {
+    display: block;
+  }
+
+  .sec-11__top-picture-container {
+    padding-top: 1rem;
+  }
+
+  .sec-11__picture-card {
+    padding-right: 3.9rem;
+    margin-bottom: 3.8rem;
+  }
+
+  .sec-11__picture {
+    margin-bottom: .7rem;
+  }
+
+  .sec-11__statistics__content {
+    font-size: pxToRem(70px);
+    span {
+      font-family: FuturaL;
+      font-size: pxToRem(18px);
+    }
+  }
+
+  .sec-11__top-content {
+    margin-bottom: 1.1rem;
+  }
+
+  .sec-11__statistics-container {
+    padding-left: 9.7rem;
+  }
+
+  .sec-11__bottom-content {
+    &::before {
+      font-size: pxToRem(220px);
+    }
   }
 }

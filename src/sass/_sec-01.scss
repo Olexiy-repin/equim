@@ -62,6 +62,29 @@
   opacity: 1;
 }
 
+input[type="submit"] {
+  cursor: pointer;
+  letter-spacing: 1px!important;
+  &:hover {
+    transition: all .5s linear;
+    background-color: #393939;
+  }
+}
+
+::-webkit-input-placeholder {font-family:FuturaL;font-size:pxToRem(16px);color:#c2c2c2;}
+::-moz-placeholder          {font-family:FuturaL;font-size:pxToRem(16px);color:#c2c2c2;}/* Firefox 19+ */
+:-moz-placeholder           {font-family:FuturaL;font-size:pxToRem(16px);color:#c2c2c2;}/* Firefox 18- */
+:-ms-input-placeholder      {font-family:FuturaL;font-size:pxToRem(16px);color:#c2c2c2;}
+
+.field input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.field input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.field input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.field input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.field input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.field input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.field input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.field input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
 // <<<<<<<<<<<<<<<< HEADER >>>>>>>>>>>>>>
 .sec-01 {
   padding-bottom: 1rem;
@@ -104,7 +127,11 @@
   color: #fff;
   font-size: pxToRem(14px);
   margin-bottom: .5rem;
-  letter-spacing: -.8px;
+  letter-spacing: 0;
+  &:hover {
+    transition: all .5s linear;
+    opacity: .5;
+  }
 }
 
 .sec-01__header-menu-btn {
@@ -113,7 +140,11 @@
   color: #c46941;
   font-size: pxToRem(14px);
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: .5px;
+  &:hover {
+    transition: all .5s linear;
+    color: #fc864d;
+  }
 }
 
 .sec-01 .menu {
@@ -146,6 +177,7 @@
       .menu__list {
         list-style: none;
         text-align: center;
+        margin-bottom: 5rem;
       }
       .menu__item {
         margin-bottom: 1rem;
@@ -158,11 +190,24 @@
         font-family: FuturaL;
         text-transform: uppercase;
         color: #fff;
+        &:hover {
+          transition: all .5s linear;
+          opacity: .5;
+        }
+      }
+
+      .sec-01__header-menu-contact-container {
+        margin-left: 0;
+        text-align: center;
       }
 }
 // <<<<<<<<<<<<<<<< END HEADER >>>>>>>>>>>>>>
 
 // <<<<<<<<<<<<<<<< CONTENT >>>>>>>>>>>>>>
+.top-slider {
+  margin-bottom: 2rem;
+}
+
 .sec-01__mobile-text-container {
 padding-left: 4.4rem;
 margin-bottom: 1.8rem;
@@ -202,6 +247,7 @@ margin-bottom: 1.8rem;
   line-height: 1.35;
   padding-left: 2.3rem;
   padding-right: .8rem;
+  margin-bottom: 1rem;
   span {
     color: #fda174;
   }
@@ -296,7 +342,7 @@ margin-bottom: 1.8rem;
 
   .sec-01__header-menu {
     width: 72%;
-    padding: 1.2rem  .5rem;
+    padding: 1.2rem 0.5rem 1.2rem 1.5rem;
   }
 
   .sec-01__header-menu-link-container {
@@ -311,6 +357,11 @@ margin-bottom: 1.8rem;
     font-family: FuturaL;
     font-size: pxToRem(12px);
     margin-right: .8rem;
+    letter-spacing: .8px;
+    &:hover {
+      transition: all .5s linear;
+      opacity: .5;
+    }
     &:last-of-type {
       margin-right: 0;
     }
@@ -318,6 +369,7 @@ margin-bottom: 1.8rem;
 
   .sec-01__header-menu-contact-container {
     margin-left: 1.4rem;
+    padding-top: .1rem;
   }
 
   .sec-01__header-menu-phone {
@@ -325,6 +377,7 @@ margin-bottom: 1.8rem;
     color: #fff;
     font-size: pxToRem(14px);
     margin-bottom: .5rem;
+    letter-spacing: .5px;
   }
 
   .sec-01__header-menu-btn {
@@ -371,6 +424,10 @@ margin-bottom: 1.8rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+  }
+
+  .sec-01 .sec-01__form-title {
+    margin-bottom: 1rem;
   }
 }
 

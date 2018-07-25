@@ -5,8 +5,8 @@
 
    loop: true,
    nav: false,
-   // autoplay: true,
-   // autoplayTimeout: 1000,
+   autoplay: true,
+   autoplayTimeout: 5000,
    animateOut: "fadeOut",
    animateIn: "fadeIn",
    mouseDrag: false,
@@ -22,6 +22,11 @@
   $(".sec-06__slider").owlCarousel({
    items : 1,
    itemsCustom : true,
+   autoplay: true,
+   autoplayTimeout: 3000,
+   animateOut: "fadeOut",
+   animateIn: "fadeIn",
+   mouseDrag: false,
 
    loop: true,
    nav: false,
@@ -121,3 +126,20 @@
       }
   });
 })();
+
+$('.scroll').click(function() {
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+    return false;
+});
+
+$('.fixed-menu').fadeOut();
+
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 800) {
+        $('.fixed-menu').fadeIn('slow');
+    } else {
+        $('.fixed-menu').fadeOut('slow');
+    }
+});

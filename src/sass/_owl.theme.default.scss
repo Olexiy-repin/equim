@@ -42,7 +42,7 @@
   .owl-dots {
     position: absolute;
     bottom: -1rem;
-    // right: 0;
+    right: 2rem;
   }
 }
 
@@ -102,6 +102,17 @@
   .sec-10 {
     .owl-dots {
       bottom: -3.3rem;
+    }
+  }
+
+  .sec-12 {
+    .owl-nav {
+      width: 10rem;
+      height: 3.9rem;
+      bottom: -7rem;
+      .owl-prev {
+        margin-right: 6rem;
+      }
     }
   }
 }

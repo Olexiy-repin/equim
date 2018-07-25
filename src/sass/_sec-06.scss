@@ -2,6 +2,9 @@
   padding-top: 2.1rem;
   padding-bottom: 2rem;
   overflow-x: hidden;
+  .slides {
+    width: 284px !important;
+  }
 }
 
 .sec-06__title {
@@ -71,17 +74,25 @@ ul {
 
 .sec-06__plaska {
   background-color: #393939;
-  height: 11.6rem;
+  height: 13.6rem;
   width: 67%;
 }
 
 .sec-06__slider {
-  height: 155px;
-  width: 234px;
+  height: 189px;
+  width: 284px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
+}
+
+.sec-06__slider-picture {
+  display: block;
+  width: 284px;
+  img {
+    width: 284px!important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -115,6 +126,7 @@ ul {
 
   .sec-06__list__text {
     padding-right: 7rem;
+    font-size: 1.0625rem;
   }
 
   .sec-06__plaska {
@@ -205,5 +217,27 @@ ul {
   .sec-06__plaska {
     height: 34.2rem;
     width: 66.5%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .sec-06__title {
+    margin-right: 1.1rem;
+  }
+
+  .sec-06__list {
+    width: 24.2rem;
+  }
+
+  .sec-06__second-col {
+    left: -9rem;
+  }
+
+  .sec-07 {
+    overflow-x: hidden;
+  }
+
+  .sec-07__picture {
+    right: -23rem;
   }
 }

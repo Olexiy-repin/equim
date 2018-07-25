@@ -24,3 +24,20 @@ a {
   min-width: pxToRem(320px);
   margin: auto;
 }
+
+.fixed-menu {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 100;
+}
+
+
+  .fixed-menu {
+    .sec-01__logo-container {
+      background-color: #fff;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      margin: 0;
+    }
+  }

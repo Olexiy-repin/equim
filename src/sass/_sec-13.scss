@@ -61,7 +61,7 @@
 
 .sec-13__list-item {
   font-family: FuturaL;
-  font-size: pxToRem(14px);
+  font-size: pxToRem(18px);
   color: #282828;
   padding-right: 3rem;
   margin-bottom: 3rem;
@@ -72,7 +72,7 @@
 
 .sec-13__list-count {
   display: block;
-  font-family: FuturaCB;
+  font-family: FuturaC;
   width: 1.8rem;
   background: linear-gradient(to bottom, #fc864d 50%, white 50%);
   padding-top: .5rem;
@@ -134,5 +134,76 @@
   .sec-13__list-item {
     padding: 0;
     width: 23%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sec-13 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    .field {
+      width: 17.3rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .sec-10__form-text {
+      font-size: pxToRem(20px);
+      line-height: 1.3;
+      margin-bottom: 3.1rem;
+    }
+  }
+
+  .sec-13__title {
+    font-size: pxToRem(30px);
+    padding-left: 30.2rem;
+    padding-right: 11rem;
+    margin-bottom: 1.9rem;
+    &::before {
+      top: .9rem;
+      width: 2.8rem;
+      left: 26.1rem;
+    }
+  }
+
+  .sec-13__subtitle {
+    font-size: pxToRem(20px);
+    padding-left: 30.2rem;
+  }
+
+  .sec-13__list-item {
+    font-size: 1rem;
+    margin-right: 5.3rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .sec-13__list-count {
+    font-size: pxToRem(18px);
+  }
+
+  .sec-13__list {
+    padding-left: 5.2rem;
+    padding-top: .5rem;
+    justify-content: flex-start;
+  }
+
+  .sec-10__form-container {
+    width: 83.8%;
+  }
+
+  .sec-13 .sec-10__header-form {
+    width: 66.4%;
+    padding: 1.8rem 1.3rem 2.3rem 5.2rem;
+  }
+
+  .sec-13__form-title {
+    font-size: pxToRem(30px);
+    margin-bottom: 1.2rem;
+  }
+
+  .sec-13 .sec-10__form-picture {
+    width: 30%;
+    margin-top: 1rem;
   }
 }
