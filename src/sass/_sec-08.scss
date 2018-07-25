@@ -128,3 +128,40 @@
     width: 100%;
   }
 }
+
+@media (min-width: 1200px) {
+  .sec-08 {
+    padding-top: 2.2rem;
+  }
+
+  .sec-08__title {
+    font-size: pxToRem(30px);
+    padding-left: 10.3rem;
+    margin-bottom: 2.7rem;
+    &::before {
+      width: 2.8rem;
+      left: 6.2rem;
+    }
+  }
+
+  .sec-08__subtitle {
+    font-size: 1.2rem;
+    padding: 0 0 0 10.3rem;
+    width: 39rem;
+    letter-spacing: .4px;
+  }
+
+  .sec-08__list {
+    padding: 0 1rem 0 15.3rem;
+    margin-bottom: .5rem;
+  }
+
+  .sec-08__list-item {
+    font-size: pxToRem(18px);
+    margin-bottom: 3rem;
+    width: 43%;
+    &::before {
+      font-size: pxToRem(14px);
+    }
+  }
+}

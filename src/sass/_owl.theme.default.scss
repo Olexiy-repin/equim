@@ -90,3 +90,18 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .sec-06 {
+    .owl-dots {
+      bottom: -1.7rem;
+      right: 8rem;
+    }
+  }
+
+  .sec-10 {
+    .owl-dots {
+      bottom: -3.3rem;
+    }
+  }
+}

@@ -64,7 +64,7 @@
   .sec-09 {
     padding-top: 3rem;
   }
-  
+
   .sec-09__title {
     text-align: right;
     padding-right: 1rem;
@@ -90,5 +90,39 @@
 
   .sec-09__mentor-card {
     width: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sec-09 {
+    padding-top: 3.8rem;
+  }
+
+  .sec-09__title {
+    font-size: pxToRem(36px);
+    padding-right: 7.2rem;
+    margin-bottom: 3.6rem;
+    &::before {
+      left: 36.2rem;
+      width: 2.8rem;
+    }
+  }
+
+  .sec-09__mentor-card {
+    width: 25%;
+    margin-bottom: 2.6rem;
+  }
+
+  .sec-09__mentor-picture {
+    img {
+      width: auto;
+    }
+  }
+
+  .sec-09__mentors-container {
+    padding-left: 4.1rem;
+    &::after {
+      bottom: -1rem;
+    }
   }
 }
