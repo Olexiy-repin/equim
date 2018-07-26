@@ -1,43 +1,13 @@
 @font-face {
-  font-family: FuturaL;
-  src: url('fonts/FuturaFuturisLightC.woff') format("woff"),
-       url('fonts/FuturaFuturisLightC.woff2') format("woff2");
+  font-family: FuturaC;
+  src: url('fonts/FuturaFuturisC.woff') format("woff"),
+       url('fonts/FuturaFuturisC.woff2') format("woff2");
 }
 
 @font-face {
-  font-family: FuturaPTD;
-  src: url('fonts/FuturaPTDemi.woff') format("woff"),
-       url('fonts/FuturaPTDemi.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: GothaB;
-  src: url('fonts/GothaProBol.woff') format("woff"),
-       url('fonts/GothaProBol.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: GothaR;
-  src: url('fonts/GothaProReg.woff') format("woff"),
-       url('fonts/GothaProReg.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: GothaM;
-  src: url('fonts/GothaProMed.woff') format("woff"),
-       url('fonts/GothaProMed.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: SansR;
-  src: url('fonts/PTSans-Web-Regular.woff') format("woff"),
-       url('fonts/PTSans-Web-Regular.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: SansB;
-  src: url('fonts/PTSans-Web-Bold.woff') format("woff"),
-       url('fonts/PTSans-Web-Bold.woff2') format("woff2");
+  font-family: FuturaCB;
+  src: url('fonts/FuturaFuturisC-Bold.woff') format("woff"),
+       url('fonts/FuturaFuturisC-Bold.woff2') format("woff2");
 }
 
 
@@ -114,17 +84,16 @@ body {
 
 .content-container__title {
   text-align: center;
-  font-family: GothaB;
+  font-family: FuturaC;
   font-size: 2.5rem;
   text-transform: uppercase;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
   color: #fff;
-  text-shadow: 5px 0px 0 #3d3da2;
 }
 
 .content-container__subtitle {
   text-align: center;
-  font-family: SansR;
+  font-family: FuturaC;
   font-size: pxToRem(16px);
   color: #fff;
   font-weight: 100;
@@ -135,14 +104,13 @@ body {
 .content-container-btn-link {
   display: block;
   width: 17rem;
-  font-family: FuturaPTD;
-  font-size: pxToRem(16px);
-  border: none;
+  font-family: FuturaC;
+  font-size: pxToRem(14px);
+  border: 1px solid #fff;
+  letter-spacing: 1px;
   outline: none;
   text-transform: uppercase;
-  background-color: #26c6da;
   color: #fff;
-  letter-spacing: .9px;
   line-height: 1.4;
   padding: 1rem .6rem 1rem .6rem;
   text-decoration: none;
@@ -150,8 +118,7 @@ body {
   margin: 0 auto;
   &:hover {
     transition: all .5s linear;
-    box-shadow: 0px 10px 27px 0px #9e9fa2;
-    color: #000;
+    background-color: #fc864d;
   }
 }
 
@@ -172,7 +139,7 @@ body {
   }
 
   .content-container__title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -189,7 +156,7 @@ body {
   }
 
   .content-container-btn-link {
-    width: 31%;
+    width: 18%;
   }
 }
 
@@ -217,7 +184,7 @@ body {
   margin-right: 0;
   cursor: pointer;
   &:hover {
-    color: #fc0 !important;
+    color: #fc864d !important;
   }
 }
 
@@ -328,7 +295,7 @@ body {
 }
 
 .bottom-modal-content .tc {
-  font-family: FuturaPTD;
+  font-family: FuturaCB;
   font-size: pxToRem(24px);
   text-transform: uppercase;
   color: rgb(40, 41, 45);
